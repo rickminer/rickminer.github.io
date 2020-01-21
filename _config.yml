@@ -6,26 +6,28 @@
 # https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
 # https://learnxinyminutes.com/docs/yaml/
 
-title: Edit _config.yml to set your title!
-description: This is where the description of your site will go. You should change it by editing the _config.yml file. It can be as long as you like! Happy blogging... ❤
-github_username: jph00
+title: Rick - тнеміпегѕ.org
+description: This blog is a place for me to try and put down some of my thoughts, experiments, and projects.
+github_username: rickminer
+logo: /images/logo.png
 
 # Email and twitter are optional:
 email: 
-twitter_username: 
+twitter_username: K4NCX
 
 # Set this to true to get LaTeX math equation support
-use_math: 
+use_math: true
 
 # Add your Google Analytics ID here if you have one and want to use it
 google_analytics:
 
 # Everything below here can be ignored, unless you want to change the theme entirely
-theme: minima
+theme: jekyll-theme-minimal
 plugins:
   - jekyll-feed
   - jekyll-gist
   - jekyll-octicons
+  - jekyll-paginate
 
 titles_from_headings:
   enabled:     true

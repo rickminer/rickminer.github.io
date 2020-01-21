@@ -27,7 +27,6 @@ plugins:
   - jekyll-feed
   - jekyll-gist
   - jekyll-octicons
-  - jekyll-paginate
 
 titles_from_headings:
   enabled:     true
